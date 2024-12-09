@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print and Sell</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Print and Sell</h1>
+        <nav>
+            <a href="#products">Products</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+            <a href="#faq">FAQ</a>
+        </nav>
+    </header>
+    <main>
+        <section class="upload-section">
+            <h2>Upload Your Design</h2>
+            <input type="file" id="uploadImage" accept="image/*">
+            <h2>Or Choose from Free Images</h2>
+            <select id="freeImages">
+                <option value="image1.jpg">Image 1</option>
+                <option value="image2.jpg">Image 2</option>
+                <!-- Add more free image options here -->
+            </select>
+            <button id="previewButton">Preview Design</button>
+        </section>
+        <section class="product-section" id="productSection">
+            <!-- Product previews will be displayed here -->
+        </section>
+    </main>
+    <footer>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We offer a wide range of customizable products. Our mission is to provide high-quality prints with fast and reliable shipping.</p>
+        </section>
+        <section id="faq">
+            <h2>FAQ</h2>
+            <ul>
+                <li><strong>How do I upload a design?</strong> Use the upload button to select an image from your device.</li>
+                <li><strong>Can I use free images?</strong> Yes, select from our library of copyright-free images.</li>
+                <li><strong>How long does shipping take?</strong> Standard shipping takes 3-5 business days.</li>
+                <!-- Add more FAQs here -->
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: support@printandsell.com</p>
+            <p>Phone: +1 234 567 890</p>
+        </section>
+        <p>&copy; 2024 Print and Sell</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
